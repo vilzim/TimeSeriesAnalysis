@@ -1,0 +1,22 @@
+{
+  "feature_columns": [
+    "return_1d",
+    "return_1d_1lag",
+    "return_1d_2lag",
+    "return_1d_3lag",
+    "price_to_SMA_5",
+    "price_to_SMA_10",
+    "price_to_SMA_20",
+    "rsi",
+    "macd",
+    "macd_signal",
+    "macd_histogram",
+    "volatility_10",
+    "volume_change"
+  ],
+  "target": "next-day up/down",
+  "train_end_exclusive": "2022-01-01",
+  "validation_end_exclusive": "2023-01-01",
+  "test_end_exclusive": "2024-01-01",
+  "note": "Saved benchmark models were trained on the train partition only."
+}
